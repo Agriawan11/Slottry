@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    height: 45px;
+    background-color: blue;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    position: sticky;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li:first-child{
+    background-color: white;
+    color: blue;
+    justify-content: flex-start;
+}
+
+.navbar ul ::first-line{
+    justify-self: flex-start;
+    color : blue;
+}
+
+.navbar ul{
+    gap: 25px;
+}
+
+.slider{
+    width: 200px;
+    height: 600px;
+    background-color: blue;
+    color: white;
+    display: none;
+    flex-direction: column;
+}
+
+.navbar .slider{
+    justify-content: flex-start;
+    align-items: center;
+    display: none;
+    flex-direction: column;
+}
+
+.contain{
+    margin: 55px 10% 55px 10%;
+    width: 80%;
+    height: auto;
+    background-color: gainsboro;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contain button{
+    justify-self: center;
+    align-self: center;
+    width: 100px;
+    height: 75px;
+    color: red;
+    background-color: white;
+    border: 2px red solid;
+}
+
+.display {
+    width: 60%;
+    height: 300px;
+    background-color: gold;
+    align-self: center;
+}
+
+.keterangan p:first-child{
+    color: red;
+}
+
+.atention {
+     width: 200px;
+     height: 200px;
+     background-color: brown;
+     color: white;
+     align-self: center;
+     justify-self: center;
+     display: none;
+}
